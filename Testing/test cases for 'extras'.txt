@@ -1,0 +1,8 @@
+test cases for the "extras" command
+					expected output						actual outpput
+extras				"Invalid input entered."			"Invalid input entered."
+extras 3jgpo]'		"Invalid input entered."			"Invalid input entered."
+extras plot			plot of the puzzle in a figure		plot of the puzzle in a figure
+extras imshow		grayscale display of the puzzle		grayscale display of the puzzle
+extras imwrite		save a grayscale png of the puzzle	save a grayscale png of the puzzle
+extras randword		a random word from the txt file		a random word from the txt file

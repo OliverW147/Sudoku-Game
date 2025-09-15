@@ -1,0 +1,9 @@
+test cases for the "save" command
+When the puzzle is empty:
+			expected output		actual output   												actual output
+save		(81 zeros)			(81 zeros)
+sAvE 138g9	(81 zeros)			(81 zeros)
+
+When the puzzle is not empty:
+			expected output		    		actual output
+save	    string of digits with length 81	string of digits with length 81

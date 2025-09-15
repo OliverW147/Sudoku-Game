@@ -1,0 +1,9 @@
+test cases for the "undo" command
+When there is no move made yet:
+			expected output		 		actual output   												actual output
+undo		"Undid the previous move."	"Undid the previous move."
+UNDO 13adb	"Undid the previous move."	"Undid the previous move."
+
+When a move has been made using "fill" and/or "clue":
+				expected output		    	actual output
+undo	    	"Undid the previous move."	"Undid the previous move."

@@ -1,0 +1,5 @@
+test cases for the "display" command
+				expected output		    			actual output
+display	    	(a display of the current puzzle)	(a display of the current puzzle)
+display 12nA9[;	(a display of the current puzzle)	(a display of the current puzzle)
+DISPLAY			(a display of the current puzzle)	(a display of the current puzzle)

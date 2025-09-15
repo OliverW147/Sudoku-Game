@@ -1,0 +1,7 @@
+test cases for the "load" command
+					expected output					actual output   												actual output
+load				"Invalid input entered."		"Invalid input entered."
+load 12jfsncods'	"Invalid input entered."		"Invalid input entered."
+
+load 108030007040706000000000052000000030000104000070000000720000000000602074900050806
+					Successfully loaded the puzzle. Successfully loaded the puzzle.

@@ -1,0 +1,10 @@
+test cases for the "puzzle" command
+				expected output		    actual output
+puzzle easy		(an "easy" puzzle)		(an "easy" puzzle)
+puzzle hard		(a "hard" puzzle)		(a "hard" puzzle)
+pUzZlE eAsY	    (an "easy" puzzle)		(an "easy" puzzle)
+puzzle			(Invalid input entered) program catches an error and exits
+
+^ this case has been fixed and now prints the expected output ^
+
+puzzle 2ng99[	(Invalid input entered) (Invalid input entered)

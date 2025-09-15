@@ -1,0 +1,5 @@
+test cases for the "help" command
+				expected output		    		actual output
+help	    	(a display of all the commands)	(a display of all the commands)
+help 12nauf9[;	(a display of all the commands)	(a display of all the commands)
+HELP			(a display of all the commands)	(a display of all the commands)

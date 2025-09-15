@@ -1,0 +1,5 @@
+test cases for the "explain" command
+				expected output		    	actual output
+explain	    	(an explanation of Sudoku)	(an explanation of Sudoku)
+explain 12nA9[;	(an explanation of Sudoku)	(an explanation of Sudoku)
+EXPLAIN			(an explanation of Sudoku)	(an explanation of Sudoku)

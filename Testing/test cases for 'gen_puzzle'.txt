@@ -1,0 +1,7 @@
+test cases for the "gen_puzzle" command
+				expected output		    actual output
+gen_puzzle easy		(an "easy" puzzle)		(an "easy" puzzle)
+gen_puzzle medium	(a "medium" puzzle)		(a "medium" puzzle)
+gEn_pUzZlE eAsY	    (an "easy" puzzle)		(an "easy" puzzle)
+gen_puzzle			(Invalid input entered) (Invalid input entered)
+gen_puzzle 2ng99[	(Invalid input entered) (Invalid input entered)

@@ -1,0 +1,14 @@
+test cases for the "solve" command
+When puzzle is valid and unsolved:
+				expected output		    												actual output
+solve	    	A solution was found! (or no solutions found if puzzle is very hard)	A solution was found!
+SOLve 127ba@	A solution was found! (or no solutions found if puzzle is very hard)	A solution was found!
+SOLVE			A solution was found! (or no solutions found if puzzle is very hard)	A solution was found!
+
+When puzzle is invalid:
+				expected output		    	actual output
+solve	    	No solutions were found.	No solutions were found.
+
+When puzzle is solved:
+				expected output		   			actual output
+solve	    	This puzzle is already solved.	This puzzle is already solved.

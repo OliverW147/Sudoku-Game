@@ -1,0 +1,14 @@
+test cases for the "clue" command
+When puzzle is valid and unsolved:
+				expected output		    		actual output
+clue	    	(A clue was given at x, y.)		(A clue was given at x, y.)
+clue 547}1		(A clue was given at x, y.)		(A clue was given at x, y.)
+CLue			(A clue was given at x, y.)		(A clue was given at x, y.)
+
+When puzzle is invalid:
+				expected output		    actual output
+clue	    	no clues were found		no clues were found
+
+When puzzle is solved:
+				expected output		   			actual output
+clue	    	This puzzle is already solved.	This puzzle is already solved.

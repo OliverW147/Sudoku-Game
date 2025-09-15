@@ -1,0 +1,22 @@
+test cases for the "fill" command
+on an empty puzzle:
+		        expected output		    actual output
+fill 1,6,5	    (the updated matrix)	(the updated matrix)
+FILL 1,6,5	    (the updated matrix)	(the updated matrix)
+fill -1,2,4	    Invalid input entered	Invalid input entered
+fill 5,0.5,3	Invalid input entered	Invalid input entered
+fill 0,0,1	    Invalid input entered	Invalid input entered
+fill 1,1,0.5	Invalid input entered	Invalid input entered
+fill 1,1,a      Invalid input entered	Invalid input entered
+fill 1,2,3,4,5	(the updated matrix)	(the updated matrix) {fill ignores 4 and 5}
+
+on a puzzle with one unknown remaining at 1,1 ((1,1)'s correct value is 4):
+		        expected output		    					actual output
+fill 1,1,4	    (the updated matrix + congrats message)		(the updated matrix + congrats message)
+fill 1,1,5		(the updated matrix + 'incorrect' message)	(the updated matrix + 'incorrect' message)
+
+on an already completed puzzle:
+                expected output		    actual output
+fill 1,1,1      (the updated matrix)	(the updated matrix)
+fill 1,1,4		(the updated matrix)	(the updated matrix)
+fill 1,1,a		Invalid input entered	Invalid input entered

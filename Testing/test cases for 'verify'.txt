@@ -1,0 +1,16 @@
+test cases for the "verify" command
+When puzzle is valid and unsolved:
+				expected output		    		actual output
+verify	    	This puzzle is likely solvable.	This puzzle is likely solvable.
+veriFY aBr}5	This puzzle is likely solvable.	This puzzle is likely solvable.
+VERIFY			This puzzle is likely solvable.	This puzzle is likely solvable.
+
+When puzzle is invalid:
+				expected output		    actual output
+verify	    	This puzzle is invalid	This puzzle is invalid + multiple solutions were found.
+
+^ this has been fixed now ^
+
+When puzzle is solved:
+				expected output		   			actual output
+verify	    	This puzzle is already solved.	This puzzle is already solved.

@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a comprehensive Sudoku game implemented in MATLAB. It allows users to play Sudoku puzzles of varying difficulties, generate new puzzles, and utilise several helper functions to solve and analyse the game. The program is command-line based and provides a user-friendly interface for interacting with the Sudoku puzzles.
+This project allows users to play Sudoku puzzles of varying difficulties, generate new puzzles, and utilise several helper functions to solve and analyse the game.
 
 This implementation is based on the puzzle generation algorithm outlined by Andrew C. Stuart in his paper "Sudoku Creation and Grading". The puzzles included in this repository are sourced from https://github.com/dimitri/sudoku.
 
